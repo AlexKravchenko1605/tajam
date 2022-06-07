@@ -19,9 +19,12 @@ body {
   margin-top: 7px;
   color: #01dfd0;
 }
-
 .header_first-section-background {
   background-image: url(./image/Image.png);
+}
+
+.team_background,
+.header_first-section-background {
   background-repeat: no-repeat;
   height: 100%;
 }
@@ -48,7 +51,7 @@ body {
   font-size: 13px;
   font-family: "Roboto", sans-serif;
   font-weight: 600;
-  color: fff;
+  color: #fff;
 }
 .header_nav-links:hover {
   color: #01dfd0;
@@ -67,7 +70,7 @@ img[src$=".svg"] {
   margin-top: 110px;
   font-size: 32px;
   font-family: "Abril Fatface", cursive;
-  color: fff;
+  color: #fff;
   font-weight: 500;
 }
 .first-section-line {
@@ -153,13 +156,14 @@ img[src$=".svg"] {
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
+  padding: 15px;
 }
 .features__item {
   vertical-align: top;
   display: inline-block;
   width: 267px;
   height: 219px;
-  padding: 10px;
+  padding: 12px;
   text-align: center;
 }
 .features_image {
@@ -190,5 +194,68 @@ img[src$=".svg"] {
   border-top: 2px solid #f2f2f2;
   border-right: 2px solid #f2f2f2;
   margin: -2px;
-  padding: 12px;
+  padding: 14px;
+}
+.team_background {
+  background-image: url(./image/team_image.png);
+}
+.team {
+  display: inline-block;
+  text-align: center;
+  min-width: 1349px;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+.team__title {
+  text-transform: uppercase;
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.team__subtitle {
+  color: #fff;
+  margin-bottom: 10px;
+}
+.team__Line {
+  color: #50476e;
+  width: 40px;
+}
+
+.features_team_wrapper {
+  text-align: center;
+}
+.features_team__item {
+  display: inline-block;
+  margin: 20px;
+}
+.team_name_wrapper {
+  border: 1px solid grey;
+  padding: 20px;
+}
+.features_team_name {
+  color: #f2f3f7;
+  font-weight: 600;
+}
+.features_team_profession {
+  color: #8c86aa;
+}
+
+.features_team_profession,
+.features_team_name {
+  text-align: center;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+}
+.features_team__subtitle {
+  text-align: center;
+  color: #fff;
+  margin-top: 50px;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+}
+.features_team_links {
+  text-align: center;
+  margin-top: 25px;
 }
