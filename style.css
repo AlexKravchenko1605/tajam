@@ -134,7 +134,7 @@ img[src$=".svg"] {
   margin-top: 80px;
   margin-bottom: 30px;
 }
-
+.our_woks__title,
 .expertise__title {
   text-transform: uppercase;
   color: black;
@@ -142,6 +142,7 @@ img[src$=".svg"] {
   font-size: 25px;
   margin-bottom: 10px;
 }
+.our_woks__subtitle,
 .expertise__subtitle {
   color: grey;
   margin-bottom: 10px;
@@ -196,6 +197,7 @@ img[src$=".svg"] {
   margin: -2px;
   padding: 14px;
 }
+.team_description,
 .team_background {
   background-image: url(./image/team_image.png);
 }
@@ -206,6 +208,7 @@ img[src$=".svg"] {
   margin-top: 40px;
   margin-bottom: 30px;
 }
+.team_description__title,
 .team__title {
   text-transform: uppercase;
   color: #fff;
@@ -213,9 +216,18 @@ img[src$=".svg"] {
   font-size: 25px;
   margin-bottom: 10px;
 }
+.team_description__title--big {
+  font-size: 70px;
+  text-align: center;
+}
+.team_description__subtitle {
+  margin: 0 15%;
+}
+.team_description__subtitle,
 .team__subtitle {
   color: #fff;
   margin-bottom: 10px;
+  text-align: center;
 }
 .team__Line {
   color: #50476e;
@@ -233,6 +245,7 @@ img[src$=".svg"] {
   border: 1px solid grey;
   padding: 20px;
 }
+
 .features_team_name {
   color: #f2f3f7;
   font-weight: 600;
@@ -255,7 +268,74 @@ img[src$=".svg"] {
   font-family: "Roboto", sans-serif;
   font-size: 15px;
 }
+.our_works__links,
 .features_team_links {
   text-align: center;
   margin-top: 25px;
+}
+
+.our_works {
+  height: 645px;
+}
+.our_works_wrapper {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+  margin: 50px 0px;
+}
+.our_woks__subtitle {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+.our_works__links {
+  text-align: center;
+  margin-top: 70px;
+}
+.link_to_work {
+  text-decoration: none;
+  color: grey;
+}
+.team_description__title {
+  padding-top: 100px;
+}
+.team_description_members__name {
+  color: #f2f3f7;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  padding-top: 30px;
+}
+.team_description_members__profession {
+  color: #8c86aa;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  font-size: 14px;
+  padding-top: 7px;
+  font-weight: 400;
+}
+.carusel_photo {
+  padding-top: 50px;
+  padding-bottom: 140px;
+  text-align: center;
+}
+.first_photo,
+.Last_photo {
+  color: #fff;
+  font-weight: 600;
+  font-size: 25px;
+}
+.photo {
+  margin: 0 5px;
+  border: #fff;
+  border-radius: 50%;
+}
+.carusel_photo_wrapper {
+  width: 450px;
+  display: inline-flex;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
 }
